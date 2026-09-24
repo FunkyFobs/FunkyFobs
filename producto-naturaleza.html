@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilo Naturaleza | Funky Fobs</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&family=Nunito:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        body { font-family: 'Nunito', sans-serif; background-color: #fdf8f5; }
+        h1, h2, h3, .logo-font { font-family: 'Fredoka One', cursive; }
+        .text-funky-pink { color: #ff6b9e; }
+        .bg-funky-pink { background-color: #ff6b9e; }
+        .text-funky-purple { color: #9d65c9; }
+    </style>
+</head>
+<body class="text-gray-800">
+
+    <!-- Navegación -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between h-20 items-center">
+            <a href="index.html" class="text-3xl text-funky-purple logo-font tracking-wider">
+                Funky<span class="text-funky-pink">Fobs</span>
+            </a>
+            <a href="index.html" class="text-gray-600 hover:text-funky-pink font-semibold">Volver al Inicio</a>
+        </div>
+    </nav>
+
+    <!-- Detalles del Producto -->
+    <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
+        <!-- Migas de pan (Breadcrumbs) -->
+        <nav class="text-sm text-gray-500 mb-8">
+            <a href="index.html" class="hover:text-funky-pink">Inicio</a> &gt; 
+            <a href="index.html#galeria" class="hover:text-funky-pink">Llaveros</a> &gt; 
+            <span class="text-gray-800 font-semibold">Estilo Naturaleza</span>
+        </nav>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 gap-12">
+            <!-- Imagen del Producto -->
+            <div class="rounded-3xl overflow-hidden shadow-xl bg-white">
+                <!-- RECUERDA CAMBIAR EL NOMBRE DE LA FOTO SI ES NECESARIO -->
+                <img src="Funky/llavero-paola.jpg" alt="Llavero Estilo Naturaleza Paola" class="w-full h-auto object-cover">
+            </div>
+
+            <!-- Información del Producto -->
+            <div class="flex flex-col justify-center">
+                <h1 class="text-4xl text-gray-900 mb-2">Estilo Naturaleza</h1>
+                <p class="text-2xl text-funky-pink font-bold mb-6">Ref: Paola</p> 
+                
+                <p class="text-lg text-gray-600 mb-8">
+                    Conecta con las vibras terrenales y de protección. Nuestro "Estilo Naturaleza" combina tonos verdes y marrones, texturas de madera y dijes con gran significado. Un accesorio único y equilibrado para tu día a día.
+                </p>
+
+                <div class="mb-8">
+                    <h3 class="text-xl font-bold mb-3 text-funky-purple">¿Qué incluye?</h3>
+                    <ul class="list-disc list-inside text-gray-600 space-y-2">
+                        <li>Cuerdas resistentes en tonos verde oliva y marrón tierra.</li>
+                        <li>Cuentas variadas que incluyen acrílicas coloridas, madera natural y pelotas de deporte miniatura.</li>
+                        <li>Dijes principales: Huellita de mascota blanca y clásicos ojos turcos para la protección.</li>
+                        <li><strong>Personalización:</strong> Puedes agregar tu nombre o las iniciales que desees con nuestras cuentas de letras.</li>
+                    </ul>
+                </div>
+
+                <!-- Botón de Compra / Contacto -->
+                <a href="https://instagram.com/funkyfobs" target="_blank" class="text-center bg-funky-pink text-white text-xl px-8 py-4 rounded-full font-bold hover:bg-pink-500 transition shadow-lg transform hover:-translate-y-1">
+                    ¡Lo quiero personalizar! (Vía DM)
+                </a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
